@@ -4,18 +4,27 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 60px;
 }
 
 .App-header {
   background-color: #222;
-  height: 80px;
+  height: 100px;
   padding: 20px;
   color: white;
 }
 
 .App-title {
   font-size: 1.5em;
+  font-family: Segoe UI;
+  font-weight: 500;
+}
+
+.App-imageSlider {
+  background-color: #ddd;
+  height: 500px;
+  padding: 20px;
+  color: #ff6600;
 }
 
 .App-intro {
