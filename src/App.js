@@ -14,6 +14,14 @@ class App extends Component {
           <div className="App-header">
               <img src={logo} className="App-logo" alt="logo" />      
               <h1 className="App-title">NIRVANA</h1>
+              <nav>
+              <ul className="App-navbar">
+                  <li class="route active"><a href="#">Home</a></li>
+                  <li class="route"><a href="#">About</a></li>  
+                  <li class="route"><a href="#">Contacts</a></li>
+                  <li class="route"><a href="#">Downloads</a></li>
+              </ul>
+              </nav>
           </div>
 
       </div>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -16,21 +16,17 @@
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
+
 }
 
 .App-title {
   font-size: 2.0em;
  font-family: 'Josefin Sans', cursive;
   font-weight: 500;
+  text-align: center;
+  float: left;
 }
 
-.App-navbar {
-  
-  background-color: #00dd00;
-   font-size: 1.0em;
- font-family: 'Josefin Sans', cursive;
-  font-weight: 500;
-}
 
 .App-imageSlider {
   background-color: #ddd;
@@ -39,8 +35,55 @@
   color: #ff6600;
 }
 
+.App-navbar {
+  color: #fff;
+  font-size : 1.0em;
+  font-family: 'Josefin Sans', cursive;
+  text-align: right;
+  list-style-type: none;
+  background-color: transparent;
+}
+
 .App-intro {
   font-size: large;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background: transparent;
+  position: fixed;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding: 6px;
+}
+
+.route, nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+   padding: 15px;
+  color: #bbb;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+  
+}
+
+nav ul li a:before {
+  transition: all .5s;
+}
+
+.active, nav ul li a:hover {
+  color:#fff;
+  background-color: #777;
 }
 
 @keyframes App-logo-spin {
