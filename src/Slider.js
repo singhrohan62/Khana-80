@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import { Slide} from 'react-slideshow-image';
 
 	const imageArray = [
-        "https://images.pexels.com/photos/370984/pexels-photo-370984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=950&w=940",
-        "https://images.pexels.com/photos/724216/pexels-photo-724216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        "https://images.pexels.com/photos/672997/pexels-photo-672997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "https://images.pexels.com/photos/298853/pexels-photo-298853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "https://images.pexels.com/photos/162947/coffee-glass-beverage-coffee-mug-162947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       ];
 
 export default class Slider extends Component {
