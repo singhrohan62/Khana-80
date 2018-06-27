@@ -10,8 +10,12 @@ body {
   background-color: #191919;
 }
 
+h3{
+	font-family: "Computer 7";
+}
+
 .typewriter {
-  animation: typewriter 4s steps(32) 1s 1 normal both, blinkTextCursor 500ms steps(32) 16 normal;
+  animation: typewriter 3s steps(32) 1s 1 normal both, blinkTextCursor 250ms steps(32) 16 normal;
 }
 
 @keyframes typewriter {
