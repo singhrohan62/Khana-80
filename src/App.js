@@ -19,18 +19,16 @@ class App extends Component {
                   <li class="route active"><a href="#">Home</a></li>
                   <li class="route"><a href="#">About</a></li>  
                   <li class="route"><a href="#">Menu</a></li>
-                  <li class="route"><a href="#">Catering</a></li>
+                  <li class="route"><a href="#">Contact Us</a></li>
               </ul>
               </nav>
           </div>
 
       </div>
       <div>
-        <Slider/>
+        
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1 className="typewriter">NIRVANA</h1>
       </div>
     );
   }
