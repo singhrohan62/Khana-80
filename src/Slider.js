@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Slide} from 'react-slideshow-image';
+import './App.css';
 
 	const imageArray = [
         "https://images.pexels.com/photos/672997/pexels-photo-672997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
@@ -13,9 +14,11 @@ export default class Slider extends Component {
 	
 	render () {
 		return (
+			<div className="App-imageSlider">
 			<Slide images = {imageArray}
 			duration = {3000}
 			transitionDuration = {1000}/>
+			</div>
 			);
 	}
 }
