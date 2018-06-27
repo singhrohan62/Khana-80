@@ -1,11 +1,13 @@
 import React from 'react';
-
+import './About.css';
 
 class About extends React.Component {
 
     render () {
         return(
-            <h1>NIRVANA</h1>
+            <div>
+                    <p class="typewriter">NIRVANA</p>
+            </div>
         );
     }
 }
