@@ -1,17 +1,32 @@
 @import url(//http://zep.thats.im/fonts/computer7.css);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 html {
   min-height: 100%;
   overflow: hidden;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 body {
-  color: rgba(255, 255, 255, 0.75);
+  
   font-family: "Computer 7";
   background-color: #191919;
 }
 
-h3{
-	font-family: "Computer 7";
+.paper-component {
+	color : rgba(255, 255, 255, 0.75);
+	padding-right: 40vh;
+	padding-left: 40vh;
+	min-height: 80vh;
+	max-height: 80vh;
+}
+
+h6 {
+	color: rgba(255, 255, 255, 0.75);
+  	font-family: 'Josefin Sans', cursive;
+  	padding-top: 5vh;
+  	line-height: 1.5;
+  	font-size: 1.2em;
+  	text-align: center;
 }
 
 .typewriter {
@@ -45,55 +60,4 @@ p:nth-child(1) {
   transform: translateY(-50%);
   font-size: 280%;
   margin: 0 0 auto;
-}
-
-p:nth-child(2) {
-  position: relative;
-  top: 50px;
-  width: 24em;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-  font-size: 180%;
-  margin: 0 0 auto;
-}
-
-p:nth-child(3) {
-  position: relative;
-  top: 50px;
-  width: 24em;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-  font-size: 180%;
-  margin: 0 0 auto;
-}
-
-p:nth-child(4) {
-  position: relative;
-  top: 50px;
-  width: 24em;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-  font-size: 180%;
-  margin: 0 0 auto;
-}
-
-p:nth-child(5) {
-  position: relative;
-  top: 50px;
-  width: 24em;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-  font-size: 220%;
 }
