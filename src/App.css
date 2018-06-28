@@ -24,6 +24,10 @@
   font-size: 2.0em;
  font-family: 'Josefin Sans', cursive;
   font-weight: 500;
+  margin-top: 10;
+  margin-bottom: 10;
+  padding-top: 0;
+  padding-bottom: 0;
   text-align: center;
   float: left;
 }
@@ -31,8 +35,8 @@
 
 .App-imageSlider {
   width: 100vw;
-  height: 100vh;
-  padding-top: 14px;
+  height: 90vh;
+  padding-top: 15px;
   background-size: contain;
 }
 

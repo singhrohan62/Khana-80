@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Slide} from 'react-slideshow-image';
+import { Slide, Fade} from 'react-slideshow-image';
 import './App.css';
 
 	const imageArray = [
@@ -15,9 +15,14 @@ export default class Slider extends Component {
 	render () {
 		return (
 			<div className="App-imageSlider">
-			<Slide images = {imageArray}
-			duration = {3000}
-			transitionDuration = {1000}/>
+						<div >
+						<Fade images = {imageArray}
+						duration = {3000}
+						transitionDuration = {1500}/>
+						</div>
+						<div className="App-header">
+						<div className="App-title">Contact Us</div>
+						</div>
 			</div>
 			);
 	}
