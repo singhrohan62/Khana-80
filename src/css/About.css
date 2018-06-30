@@ -1,8 +1,7 @@
 @import url(//http://zep.thats.im/fonts/computer7.css);
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 html {
-  min-height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -27,6 +26,15 @@ h6 {
   	line-height: 1.5;
   	font-size: 1.2em;
   	text-align: center;
+}
+
+h5 {
+  color: rgba(255, 255, 255, 0.75);
+    font-family: 'Josefin Sans', cursive;
+    padding-top: 5vh;
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: center;  
 }
 
 .typewriter {
