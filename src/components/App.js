@@ -5,6 +5,7 @@ import Slider from './Slider';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import About from "./About";
 import Menu from "./Menu";
+import Contact_Us from "./Contact_Us";
 
 class App extends Component {
   render() {
@@ -20,14 +21,16 @@ class App extends Component {
                   <li className="route active"><Link to="/">Home</Link></li>
                   <li className="route"><Link to="/about">about</Link></li>
                   <li className="route"><Link to="/menu">Menu</Link></li>
+                  <li className="route"><Link to="/Contact_Us">Contact us </Link></li>
               </ul>
               </nav>
               <Route exact path="/" component={Slider}/>
               <Route path="/about" component={About}/>
               <Route path="/menu" component={Menu}/>
+              <Route path="/Contact_Us" component={Contact_Us}/>
               </div>
               </Router>
-    
+
       </div>
     );
   }
