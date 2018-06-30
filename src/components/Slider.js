@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Slide, Fade} from 'react-slideshow-image';
-import './App.css';
+import '../css/App.css';
 
 	const imageArray = [
         "https://images.pexels.com/photos/672997/pexels-photo-672997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
@@ -20,9 +20,7 @@ export default class Slider extends Component {
 						duration = {3000}
 						transitionDuration = {1500}/>
 						</div>
-						<div className="App-header">
-						<div className="App-title">Contact Us</div>
-						</div>
+						
 			</div>
 			);
 	}

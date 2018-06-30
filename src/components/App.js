@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import '../css/App.css';
 import Slider from './Slider';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import About from "./About";
@@ -23,8 +23,7 @@ class App extends Component {
               <Route exact path="/" component={Slider}/>
               <Route path="/about" component={About}/>
               </div>
-              </Router>
-                  
+              </Router>    
       </div>
     );
   }
