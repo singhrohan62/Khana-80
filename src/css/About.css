@@ -28,15 +28,6 @@ h6 {
   	text-align: center;
 }
 
-h5 {
-  color: rgba(255, 255, 255, 0.75);
-    font-family: 'Josefin Sans', cursive;
-    padding-top: 5vh;
-    line-height: 1.5;
-    font-size: 1.2em;
-    text-align: center;  
-}
-
 .typewriter {
   animation: typewriter 3s steps(32) 1s 1 normal both, blinkTextCursor 250ms steps(32) 16 normal;
 }

@@ -1,0 +1,41 @@
+h5 {
+  color: rgba(255, 255, 255, 0.75);
+    font-family: 'Josefin Sans', cursive;
+    padding-top: 3vh;
+    line-height: 1.5;
+    font-size: 2.0em;
+    text-align: center;  
+}
+
+.food-item-name{
+	font-family: 'Josefin Sans', cursive;
+	line-height: 1.5;
+	font-size:1.5em;
+	float: left;	
+	padding-top: 0;
+	margin: 0;
+}
+
+.food-item {
+	padding-top: 5vh;
+	margin: 0;
+}
+
+
+
+.food-item-des {
+	font-family: 'Josefin Sans', cursive;
+	line-height: 1.5;
+	font-size: 1.0em;
+	margin: 0;
+	text-align: left;
+	padding-top: 2vh;
+}
+
+.food-item-price {
+	font-family: 'Josefin Sans', cursive;
+	font-size: 1.2em;
+	margin: 0;
+	padding-top:0;
+	text-align: right;	
+}
