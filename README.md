@@ -1,1 +1,1 @@
-NIRVANA - its basically a web layout for a new coffee shop which will be opening its gates for people soon:grinning:.This project is built in React JS, trending front-end frameworks of JS. Will be deploying it soon!
+NIRVANA - its basically a website for a coffee shop which will be opening its gates for people soon:grinning:. Will be deploying it soon!
