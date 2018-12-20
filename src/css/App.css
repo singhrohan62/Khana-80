@@ -35,6 +35,11 @@
   font-size: -webkit-xxx-large;
 }
 
+.home-subheader {
+  color: white;
+  font-size: xx-large;
+}
+
 .home-container {
   background: url('../static/picture_1.jpg');
   max-width: 100%;
