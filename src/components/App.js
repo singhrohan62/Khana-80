@@ -17,7 +17,8 @@ class App extends Component {
                     <h2 className="home-subheader">
                       Awesome place to chill
                       <Typist.Backspace count={8} delay={200}/><span>for foodies</span>
-                      <Typist.Backspace count={11} delay={200}/><span> to hangout with friends</span>
+                      <Typist.Backspace count={11} delay={200}/><span>to hangout with friends</span>
+                      <Typist.Backspace count={23} delay={200}/><span>to enjoy local food</span>
                       <br/><br/>
                       <Typist.Delay ms={500}/><Link to="/about" className="button is-link is-rounded" >Check In</Link>
                     </h2>

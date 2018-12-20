@@ -30,7 +30,7 @@
 }
 
 .home-header {
-  padding-top: 250px;
+  padding-top: 450px;
   color: #ffffff;
   font-size: -webkit-xxx-large;
 }
@@ -46,7 +46,7 @@
   max-height: 100%;
   height: -webkit-fill-available;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.6;
   margin-left: 175px;
 }
 
