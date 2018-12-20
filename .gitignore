@@ -6,6 +6,10 @@
 # testing
 /coverage
 
+#lock-files
+/package-lock.json
+/yarn.lock
+
 # production
 /build
 
