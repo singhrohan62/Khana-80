@@ -8,10 +8,9 @@ import Paper from '@material-ui/core/Paper';
 const styles = theme => ({
     root : ({
          ...theme.mixins.gutters(),
-        paddingTop: theme.spacing.unit * 10,
+         paddingTop: theme.spacing.unit * 8,
         paddingBottom: theme.spacing.unit * 10,
         backgroundColor : "transparent",
-         marginTop: theme.spacing.unit * 8,
          marginLeft: theme.spacing.unit * 2,
     }),
 });
@@ -21,12 +20,12 @@ class About extends React.Component {
     render () {
         const {classes} = this.props;
         return(
-            <div>
+            <div className="about-container">
                   
                     <div className="paper-component">
                         <Paper className = {classes.root} elevation = {8}>
                               <p className="typewriter"> N I R V A N A </p>
-                            <h6>
+                            <h6 className="about-section">
                                 Café Nirvana, Varanasi’s most charming café is situated at the edge of river Ganga, in Assi Ghat. 
                                 The idea was to create a peaceful and lively space where people could have a wonderful meal, 
                                 relax and feel rejuvenated, meet over aromatic coffees and fresh juices accompanied with delicious cakes,

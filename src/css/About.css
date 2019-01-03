@@ -19,6 +19,14 @@ body {
 	max-height: 80vh;
 }
 
+.about-container {
+  height: -webkit-fill-available;
+}
+
+.about-section {
+  padding-top: 100px;
+}
+
 h6 {
 	color: rgba(255, 255, 255, 0.75);
   	font-family: 'Josefin Sans', cursive;
