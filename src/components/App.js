@@ -7,14 +7,15 @@ import 'bulma/css/bulma.css'
 
 class App extends Component {
 
-  constructor() {
-    super();
-    this.state = {
-      counter: 0,
+  componentDidMount () {
+    if(!sessionStorage.getItem('isRenderedEarlier'))
+    {
+      sessionStorage.setItem('isRenderedEarlier', true)
     }
   }
+  
   render() {
-    if(this.state.counter !== 0)
+    if(!sessionStorage.getItem('isRenderedEarlier'))
     {
         return (
                 <div className="App">
@@ -43,7 +44,7 @@ class App extends Component {
                   <div className="home-container">
                       <h1 className="home-header">Cafe Nirvana</h1>
                         <h2 className="home-subheader">
-                          Awesome place to chill
+                          Awesome place to visit
                           <br/><br/>
                           <Link to="/about" className="button is-link is-rounded" >Check In</Link>
                         </h2>

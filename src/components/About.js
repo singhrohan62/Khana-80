@@ -5,6 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 
 
+
 const styles = theme => ({
     root : ({
          ...theme.mixins.gutters(),
@@ -24,7 +25,7 @@ class About extends React.Component {
                   
                     <div className="paper-component">
                         <Paper className = {classes.root} elevation = {8}>
-                              <p className="typewriter"> N I R V A N A </p>
+                              <p className="typewriter"> C A F E - N I R V A N A </p>
                             <h6 className="about-section">
                                 Café Nirvana, Varanasi’s most charming café is situated at the edge of river Ganga, in Assi Ghat. 
                                 The idea was to create a peaceful and lively space where people could have a wonderful meal, 
