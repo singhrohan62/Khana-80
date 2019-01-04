@@ -43,7 +43,7 @@ class App extends Component {
           <div className="App">
                   <div className="home-container">
                         <h2 className="home-quote">
-                          "Peace comes out with satisfaction of soul with hunger."
+                          "Peace comes out with satisfaction of soul and hunger."
                           <br/><br/>
                         <h2 className="home-subheader">
                         Cafe Nirvana
