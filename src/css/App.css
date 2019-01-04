@@ -29,7 +29,6 @@
 
 .home-quote {
   font-size: x-large;
-  margin-top: 12px;
   padding-top: 410px;
   color: white;
 }
@@ -61,7 +60,7 @@
   .home-quote {
     font-size: 1.0rem;
     font-style: italic;
-    padding-top: 330px;
+    padding-top: 320px;
   }
 
   .home-subheader {
