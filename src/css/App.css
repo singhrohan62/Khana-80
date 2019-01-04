@@ -27,6 +27,13 @@
   margin-top: 10px;
 }
 
+.home-quote {
+  font-size: x-large;
+  margin-top: 12px;
+  padding-top: 410px;
+  color: white;
+}
+
 .home-container {
   background: url('../static/picture_1.jpg');
   max-width: 100%;
@@ -49,6 +56,12 @@
     font-size: 1.7rem;
     padding-top: 370px;
     padding-left: 0px;
+  }
+
+  .home-quote {
+    font-size: 1.0rem;
+    font-style: italic;
+    padding-top: 330px;
   }
 
   .home-subheader {

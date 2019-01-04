@@ -42,10 +42,13 @@ class App extends Component {
       return (
           <div className="App">
                   <div className="home-container">
-                      <h1 className="home-header">Cafe Nirvana</h1>
-                        <h2 className="home-subheader">
-                          Awesome place to visit
+                        <h2 className="home-quote">
+                          "Peace comes out with satisfaction of soul with hunger."
                           <br/><br/>
+                        <h2 className="home-subheader">
+                        Cafe Nirvana
+                        </h2>
+                          <br/>
                           <Link to="/about" className="button is-link is-rounded" >Check In</Link>
                         </h2>
                   </div>
