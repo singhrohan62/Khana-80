@@ -3,8 +3,8 @@ import '../css/About.css';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-
-
+import 'bulma/css/bulma.css'
+import {Link} from 'react-router-dom'
 
 const styles = theme => ({
     root : ({
@@ -33,7 +33,7 @@ class About extends React.Component {
                                 exchange ideas over wholesome global cuisine and ‘just be’ in a friendly and aesthetic environment with 
                                 friends and family enjoying nature’s bounty and witnessing the beauty of the city.
                             </h6>
-                            
+                            <Link to="/menu" className="button is-link is-rounded" >Menu</Link>
                         </Paper>
                     </div>
             </div>

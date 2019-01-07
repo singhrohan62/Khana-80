@@ -4,6 +4,7 @@ import './css/index.css';
 import App from './components/App';
 import About from './components/About';
 import Contact_us from './components/Contact_Us'
+import Menu from './components/Menu'
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
 			<Route exact path='/' component={App}/>
 			<Route exact path='/about' component={About}/>
 			<Route exact path='/contact_us' component={Contact_us}/>
+			<Route exact path='/menu' component={Menu}/>
 		</Switch>
 	</BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();
