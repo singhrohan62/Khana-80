@@ -77,3 +77,29 @@
   }
 
 }
+
+@media (max-height: 600px) and (orientation: landscape) {
+  
+  .background-image {
+    max-width: 5vw;
+    max-height: 5vh;
+  }
+
+  .home-header {
+    font-size: 1.7rem;
+    padding-top: 50px;
+  }
+
+  .home-quote {
+    font-size: 1.0rem;
+    padding-top: 50px;
+  }
+
+  .home-container {
+    margin-left: 0;
+  }
+
+  .home-subheader {
+    font-size: 1.2rem;
+  }
+}
