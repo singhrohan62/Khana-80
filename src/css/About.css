@@ -87,3 +87,18 @@ p:nth-child(1) {
     font-size: 1.2rem;
   }
 }
+@media (max-height:600px) and (orientation: landscape) {
+  h6 {
+    font-size: 0.8rem;
+  }
+
+  .paper-component {
+    padding-right: 5vh;
+    padding-left: 5vh;
+    min-height: 15vh;
+  }
+
+  p:nth-child(1) {
+    font-size: 1.2rem;
+  }
+}

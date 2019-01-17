@@ -93,6 +93,7 @@
   .home-quote {
     font-size: 1.0rem;
     padding-top: 50px;
+    font-style: italic;
   }
 
   .home-container {
