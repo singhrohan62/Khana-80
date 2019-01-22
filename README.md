@@ -1,14 +1,14 @@
 <h1 align="center">CAFE NIRVANA</h1>
-<p align="center">Visit the [website](https://cafenirvana.herokuapp.com)
+<p align="center">
 Cafe Nirvana, is recently opened cafe in Varanasi, is a must-visit 
 cafe if someone is visiting the Assi Ghat.</p>
 
-##Tools used
+## Tools used
 * React (JS Library)
 * Bulma (CSS Framework)
 * Material UI (UI Framework)
 
-##Author
+## Author
 
 [Rohan Singh](https://github.com/singhrohan62)
 
