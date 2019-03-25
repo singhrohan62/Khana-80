@@ -1,7 +1,8 @@
 <h1 align="center">CAFE NIRVANA</h1>
 <p align="center">
 Cafe Nirvana, is recently opened cafe in Varanasi, is a must-visit 
-cafe if someone is visiting the Assi Ghat.</p>
+cafe if someone is visiting the Assi Ghat.
+Visit the [website](https://cafenirvana.herokuapp.com)</p>
 
 ## Tools used
 * React (JS Library)
